@@ -22,11 +22,11 @@ export const Main = () => {
           </Typography>
         </Toolbar>
       </AppBar>
-      <Stack>
+      <Stack style={{height:"100%", display:"flex", flexDirection:"column"}}>
 
       <div style={{ height: "50px" }}></div>
-        <div className="container">
-          <RestaurantsDataGrid/>
+        <div className="container" style={{flexGrow:1}}>
+          <RestaurantsDataGrid />
         </div>
       </Stack>
     </div>

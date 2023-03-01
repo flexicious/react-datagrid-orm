@@ -62,7 +62,8 @@ export const RestaurantsDataGrid = () => {
 
 
     return (
-        <DataGrid gridOptions={{
+        <DataGrid style={{height:"100%", }}
+        gridOptions={{
             dataProvider: serverInfo?.currentPageData,
             filterPageSortMode: FilterPageSortLoadMode.Server,
             enablePaging: true,
